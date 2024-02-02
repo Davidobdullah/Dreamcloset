@@ -18,7 +18,8 @@ export class GoogleMapComponent implements OnInit {
 
   initMap(): void {
     const map = new google.maps.Map(document.getElementById('map') as HTMLElement, {
-      center: { lat: -34.397, lng: 150.644 },
+      center: { lat: 33.7311, lng: 75.1487 },
+      // center: { lat: -34.397, lng: 150.644 },
       zoom: 8
     });
 
