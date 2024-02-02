@@ -8,9 +8,8 @@
           <!-- Card 1: KPI -->
           <div class="row">
           <div class="col-md-3" *ngFor="let product of productDetailsArr">
-          <div class="card imagecss">
-              <!-- <h5 class="card-title">Total Users</h5>
-              <p class="card-text display-4">1,234</p> -->
+          <div class="card imagecss" [ngClass]="{'zoomable-image': true, 'zoomed-in': isZoomedIn}" (click)="toggleZoom()">
+            <div >
               <img [src]="product.imgPath" alt="Image Description" class="img-fluid mb-2" />
               <p class="prices">{{product.price}}</p>
           </div>

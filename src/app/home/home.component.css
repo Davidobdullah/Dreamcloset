@@ -27,10 +27,20 @@
   .imagecss {
     height: calc(100% - 5px);
     width: 250px;
+   
+  }
+  .zoomable-image {
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .zoomable-image.zoomed-in {
+    transform: scale(1.2); /* Adjust the scale factor for the desired zoom level */
   }
   .imagecss img {
     height: 300px;
     width: 100%;
+    
   }
   .img-sec {
     display: flex;

@@ -7,6 +7,8 @@ import { LayoutComponent } from './layout/layout.component';
 import { HomeComponent } from './home/home.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { GoogleMapComponent } from './google-map/google-map.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { AboutComponent } from './about/about.component';
     LayoutComponent,
     HomeComponent,
     SidebarComponent,
-    AboutComponent
+    AboutComponent,
+    ContactComponent,
+    GoogleMapComponent
   ],
   imports: [
     BrowserModule,

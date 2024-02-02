@@ -1,4 +1,4 @@
-/* home.component.css */
+/* 
 .card {
     margin-bottom: 20px;
     border: 1px solid rgba(0, 0, 0, 0.125);
@@ -19,8 +19,24 @@
     font-size: 2.5rem;
   }
   
-  /* Dummy Graph Card */
-  #dummyGraph {
-    width: 100%;
+  */
+  .headin {
+    background-color: gainsboro;
+    font-family: serif;
+    font-size: large;
   }
-  
+
+  .contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .social-icons {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  .colors{
+    background-color: gainsboro;
+  }
