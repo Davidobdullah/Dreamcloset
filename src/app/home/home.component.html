@@ -1,0 +1,55 @@
+<!-- home.component.html -->
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <!-- <h2>Welcome to the Dashboard</h2> -->
+  
+        <div class="card-deck">
+          <!-- Card 1: KPI -->
+          <div class="row">
+          <div class="col-md-3" *ngFor="let product of productDetailsArr">
+          <div class="card imagecss">
+              <!-- <h5 class="card-title">Total Users</h5>
+              <p class="card-text display-4">1,234</p> -->
+              <img [src]="product.imgPath" alt="Image Description" class="img-fluid mb-2" />
+              <p class="prices">{{product.price}}</p>
+          </div>
+        </div>
+    </div>
+          <!-- Card 2: KPI -->
+          <!-- <div class="row">
+            <div class="col-md-6">
+                
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Revenue</h5>
+                      <p class="card-text display-4">$50,000</p>
+                    </div>
+                  </div>
+            </div>
+            
+          </div> -->
+          
+  
+          <!-- Card 3: KPI -->
+          <!-- <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Orders</h5>
+              <p class="card-text display-4">567</p>
+            </div>
+          </div> -->
+        </div>
+  
+        <!-- Dummy Graph Card -->
+        <!-- <div class="card mt-4">
+            <div class="card-body">
+              <h5 class="card-title">Sales Overview</h5>
+              <canvas id="dummyGraph" width="400" height="200"></canvas>
+            </div>
+          </div> -->
+      </div>
+    </div>
+  </div>
+  

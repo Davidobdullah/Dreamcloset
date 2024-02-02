@@ -1,0 +1,55 @@
+<!-- app-layout.component.html -->
+
+
+
+  
+<div class="container-fluid">
+  <div class="row m-0 full-sec">
+    <!-- Sidebar -->
+    <nav class="col-md-2 d-none d-md-block bg-light sidebar p-0 left-section">
+      <div class="sidebar-sticky">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" >
+              <i class="fas fa-chart-bar"></i> Dream Closet
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/layout/home">
+              <i class="fa-solid fa-house"></i> Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/layout/about">
+              <i class="fas fa-info-circle"></i> About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/layout/page3">
+              <i class="fa fa-file"></i> Contact
+              
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+
+    <!-- Main content area -->
+    <main role="main" class="col-md-10 ml-sm-auto col-lg-10 right-section">
+      <div class="titlecss">
+        <h2 class="h2">Dream Closet</h2>
+        <p style="margin-bottom:0 !important;">Modest Design</p>
+      </div>
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-0 mb-0">
+        
+       
+      </div>
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+</div>
+
+
+
+

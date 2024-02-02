@@ -1,0 +1,92 @@
+/* app-layout.component.css */
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 9rem);
+    padding-top: 1rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+    /* background-image: linear-gradient(60deg, rgb(38 198 218 / 21%), rgb(0, 172, 193)) */
+    background-image: linear-gradient(60deg, rgb(38 198 218 / 21%), rgb(46 81 85))
+  }
+  
+  .sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+    background-color: white;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 60px;
+  }
+  
+  .sidebar .nav-link.active {
+    color : rgb(46 81 85)
+    /* color: #007bff; */
+  }
+  
+  .sidebar .nav-link:hover {
+    /* color: #007bff; */
+    color : rgb(46 81 85)
+  }
+  
+  /* Main content area adjustments */
+  .main-content {
+    margin-top: 4.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .sidebar {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1000;
+      padding-top: 4.5rem;
+      padding-bottom: 4.5rem;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+      
+      /* box-shadow: 0 3px 10px rgba(22, 181, 230, 0.1); */
+    }
+  
+    .margin-myelement {
+        /* margin-left: 200px; */
+      }
+  }
+  .nav-link {
+    color: #333; /* Default text color */
+    transition: color 0.3s; /* Smooth transition for color change */
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Color on hover */
+  }
+
+  .left-section{
+    width: 200px;
+  }
+  .right-section {
+    width: calc(100% - 200px);
+  }
+  .full-sec{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .titlecss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(134 160 163)
+  }
